@@ -5,7 +5,6 @@ function State (){
 function apple(){
     setdata(data+1)
 }
-
     return(
         <div className="App">
         <h1>{data}</h1>

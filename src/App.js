@@ -6,12 +6,17 @@
 // import Classs from './React Class Comp/Basic/User'
 // import Should from './React Class Comp/Basic/pure_Com'
 // import Controlled from './React functional Comp/Controlled'
-import Todo from './Todo_list'
-
+// import Todo from './Todo_list'
+// import StateLifting from './React functional Comp/Lifting StateUp/Parents'
+// import StateLifting from './React functional Comp/API/App'
                         //Hooks
 // import Should from './React functional Comp/Hooks/Effect'
 // import Should from './React functional Comp/Hooks/UseEffect_on_specific/Student'
 // import UseMemo from './React functional Comp/Hooks/Memo'
+
+
+// Context API
+import Api from './React functional Comp/API/Context API/App'
 
 // Class Component
                         // Life cycle method
@@ -22,11 +27,18 @@ import Todo from './Todo_list'
 // import Should from './React Class Comp/Life Cycle Method/Should'
 // import UnMount from './React Class Comp/Life Cycle Method/Comp_unMount'
 
+
+//Redux
+// import Abc from './Redux/Services/Reducers/Constant'
+
+
+//Router
+// import Router from './Router/Basic'
 function App (){
         return(
                 <div className="App">
                 <h1>Complete React</h1>
-                <Todo />
+                <Api/>
                 
                 </div>
         )}
