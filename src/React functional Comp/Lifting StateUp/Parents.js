@@ -1,13 +1,13 @@
 import React from "react";
-import Child from './Child'
-function Parents (){
-    function ParentAlert (name){
+import Student from "./Student";
+function App() {
+  function handlertChild(name) {
     alert(name);
-    }
-    return(
-        <div className="App">
-        <h1>Lifting state up</h1>
-        <Child newdata={ParentAlert}/>
-        </div>
-    )}
-export default Parents;
+  }
+  return (
+    <>
+      <Student newData={handlertChild} />
+    </>
+  );
+}
+export default App;

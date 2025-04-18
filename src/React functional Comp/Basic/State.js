@@ -1,4 +1,3 @@
-
 import React,{useState} from "react";
 function State (){
     const [data,setdata]=useState(0)

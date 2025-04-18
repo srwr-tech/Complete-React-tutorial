@@ -43,7 +43,6 @@ function App (){
                 <div className="App">
                 <h1>Complete React</h1>
                 <HigherOrder/>
-                
                 </div>
         )}
 export default App;

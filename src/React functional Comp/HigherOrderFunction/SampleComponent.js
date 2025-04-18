@@ -1,10 +1,11 @@
 
 function SampleComponent (){
     return  (
-        <h1>Hi I am Sample Compoennt</h1>        
+        <h1>Hi I am Sample Compoennt zahid</h1>        
     )}
 
     const hocfunction =(Data)=>{
+        
         return (
             ()=> (
                 <div style={{backgroundColor:"red" , padding:"40 px"}}>

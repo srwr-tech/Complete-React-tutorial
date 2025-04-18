@@ -6,7 +6,7 @@ import React,{useState, useEffect} from "react";
     useEffect(()=>{
         console.log("use effect called");
         console.log("same as Component did mount");
-    },[])
+    })
     return(
         <div className="App">
         <h1>Use effect</h1>
